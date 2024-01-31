@@ -1,0 +1,57 @@
+h2 {
+    font-size: 22px;
+    margin: 5px;
+    margin-bottom: 18px;
+}
+
+.dResult, .dResult *{
+    background-color: #fffffc !important;
+}
+
+.dResult {
+    padding: 1em 1em 0 1em;
+    border: solid 2px black;
+    border-radius: 0.2em;
+    font-weight: 500;
+    margin: 15px 0;
+    animation: ease-in-out fadeIn 1.3s;
+}
+.dResult span {
+    font-weight: 700;
+}
+.results {
+    margin: 20px;
+}
+
+.gap {
+    margin-bottom: 15px;
+}
+
+#totalp {
+    margin: 5px;
+    margin-top: 18px;
+    font-size: 17px;
+}
+b {
+    font-weight: 700;
+    font-size: 18px;
+}
+i {
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+}
+.con, .con * {
+    background: #c5bbff;
+}
+.con {
+   border: solid black 2px;
+   border-radius: 0.2em;
+   animation: fadeIn 1s; 
+   box-shadow: #00000072 0px 0px 4px;
+}
+
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
